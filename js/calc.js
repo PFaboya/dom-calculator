@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(){
-var sum = ""
+var sum = "";
   var buttonsNums = document.querySelectorAll(".buttonNum")
   var scrninput = document.getElementById("screen")
   for (var i = 0; i < buttonsNums.length; i++) {
@@ -37,10 +37,4 @@ var sum = ""
       sum=""
       screeninput.innerHTML = sum;
     })
-
-
-
-
-
-
 })
